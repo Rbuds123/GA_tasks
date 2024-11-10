@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+#files to ignore
+GA_np.py
+GA_Rd.py
+double_point_ga.py
 # Distribution / packaging
 .Python
 build/
