@@ -157,4 +157,3 @@ print(
     f"Best solution found: {best_local_solution} at generation {local_best_generation} "
     f"with a fitness of {fitness(best_local_solution)}"
 )
-#
