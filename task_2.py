@@ -85,4 +85,3 @@ print("-------------------------------------------------------------")
 for i in range(num_items):
     selected = "Yes" if best_solution[i] == 1 else "No"
     print(f"{i+1:9} | {weights[i]:15} | {profits[i]:20} | {selected}")
-

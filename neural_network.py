@@ -83,7 +83,7 @@ class Neural_network(object):
 if __name__ == "__main__":
     # Generate training data
     training_inputs = np.array([[random()] for _ in range(500)])
-    targets = np.array([[3 * i[0] + 0.7 * i[0] ** 2] for i in training_inputs])
+    targets = np.array([[3 * x[0] + 0.7 * x[0] ** 2] for x in training_inputs])
     
     # Initialize and train the neural network
     nn = Neural_network(1, [5, 5], 1)  # Adjust layer sizes if necessary
