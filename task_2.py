@@ -9,7 +9,7 @@ num_items = len(profits)
 
 # Define GA parameters
 population_size = 50
-generations = 1000
+generations = 100
 crossover_rate = 0.8
 mutation_rate = 0.01
 

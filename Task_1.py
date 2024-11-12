@@ -1,5 +1,4 @@
 import numpy as np
-#import random as random
 
 def initialize_population(pop_size, chromosome_length):
     """
@@ -151,7 +150,7 @@ best_local_solution, local_best_generation = genetic_algorithm(
     pop_size=100,
     chromosome_length=32,
     mutation_rate=0.01,
-    generations=500
+    generations=100
 )
 print(
     f"Best solution found: {best_local_solution} at generation {local_best_generation} "
