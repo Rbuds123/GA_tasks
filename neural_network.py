@@ -89,7 +89,7 @@ if __name__ == "__main__":
     nn = Neural_network(1, [5, 5], 1)  # Adjust layer sizes if necessary
     nn.train_nn(training_inputs, targets, epochs=500, lr=1)
     
-    test_inputs = np.linspace(-15, 10, 100).reshape(-1, 1)
+    test_inputs = np.linspace(-50, 10, 100).reshape(-1, 1)
     true_outputs = 3 * test_inputs + 0.7 * (test_inputs ** 2)
     nn_outputs = np.array([nn.FF(x) for x in test_inputs])
 
