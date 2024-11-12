@@ -1,7 +1,6 @@
 from random import random
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import mean_squared_error
 
 class Neural_network(object):
     def __init__(self, X=1, HL=[5, 5], Y=1):
@@ -100,4 +99,3 @@ if __name__ == "__main__":
     plt.ylabel("y")
     plt.legend()
     plt.show()
-    mse = mean_squared_error(true_outputs, nn_outputs)
